@@ -12,7 +12,7 @@ from telegram.ext import (
 )
 
 load_dotenv()
-EDUHUB_URL = os.loadenv("EDUHUB_URL")
+EDUHUB_URL = os.getenv("EDUHUB_URL")
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
