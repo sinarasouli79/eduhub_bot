@@ -1,0 +1,6 @@
+vesion: '3.4'
+
+services:
+  eduhub-bot:
+    image: docker.cnarasouli.ir/backend/eduhub-bot:latest
+    command: "python main.py"
